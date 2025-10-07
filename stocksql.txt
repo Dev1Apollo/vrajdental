@@ -1,0 +1,1 @@
+SELECT productId as Id,productName as ProductName,openingStock as OpeningStock,cr as CreditStock,dr as DebitStock,closing as ClosingStock FROM `product` where istatus=1 and isDelete=0;

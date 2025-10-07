@@ -1,0 +1,846 @@
+Base URL : http://getdemo.in/vrajdental/webservies/ws_services.php?
+
+API : Login
+URL  :action=adminlogin
+Request:
+{
+		"MobileNo":"9876543210",
+	    "Password":"1234"
+
+
+
+}
+Response : 
+{
+    "message": "Login Successfully Done",
+    "success": "1"
+}
+
+==================================
+
+api:Add Product
+url:action=addproduct
+
+Request:
+{
+	
+		"MobileNo":"9876543210",
+	    "Password":"1234"
+
+	"productName":"vraj product",
+	"lpr":"100",
+	"openingStock":"500"
+
+
+}
+Response:
+{
+    "message": "Added Successfully !",
+    "success": "1"
+}
+=====================================
+
+api:Update Product
+url:action=updateproduct
+
+Request:
+{
+	"MobileNo":"9876543210",
+	"Password":"1234",
+	"productName":"1",
+	"lpr":"5",
+	"openingStock":"10"
+	
+}
+Response:
+{
+    "message": "Update Successfully !",
+    "success": "1"
+}
+
+==============================================
+
+api: List Of Product
+url:action=listofproduct
+
+Request:
+{
+	
+		"MobileNo":"9876543210",
+	    "Password":"1234"
+
+	
+
+
+}
+Response:
+{
+    "ProductList": [
+        {
+            "productId": "1",
+            "productName": "dvfgd",
+            "lpr": "60",
+            "openingStock": "78"
+        },
+        {
+            "productId": "2",
+            "productName": "dvfgd",
+            "lpr": "57",
+            "openingStock": "58"
+        },
+        {
+            "productId": "3",
+            "productName": "vraj product",
+            "lpr": "100",
+            "openingStock": "500"
+        }
+    ],
+    "message": "",
+    "success": "1"
+}
+=======================================
+
+api:Add Vender
+url:action=addvender
+
+Request:
+{
+	
+		"MobileNo":"9876543210",
+	    "Password":"1234"
+
+	"venderName":"vender1",
+	"mobile":"4567891230",
+	"contactPerson":"urvashi"
+	
+    }
+
+    Response:
+    {
+    "message": "Added Successfully !",
+    "success": "1"
+}
+=============================================
+
+api: Update Vender
+url: action=updatevender
+
+Request:
+{
+	"MobileNo":"9876543210",
+	"Password":"1234",
+	"venderName":"ytfght",
+	"mobile":"7894561230",
+	"contactPerson":"fghyg"
+	
+}
+Response:
+{
+    "message": "Update Successfully !",
+    "success": "1"
+}
+
+=================================================
+
+api:List Of Vender
+url:action=listofvender
+
+Request:
+{
+
+		"MobileNo":"9876543210",
+	    "Password":"1234"
+
+
+	}
+
+    Response:
+    {
+    "VenderList": [
+        {
+            "venderId": "1",
+            "venderName": "ghfub",
+            "mobile": "7894561230",
+            "contactPerson": "sdes"
+        },
+        {
+            "venderId": "2",
+            "venderName": "vender1",
+            "mobile": "4567891230",
+            "contactPerson": "urvashi"
+        }
+    ],
+    "message": "",
+    "success": "1"
+}
+=============================================
+
+api:Create Central Admin
+url:action=createcentraladmin
+
+Request:
+{
+
+		"MobileNo":"9876543210",
+	    "Password":"1234"
+
+	"cleaningName":"apollo hospital",
+	"mobile":"7894561230",
+	"password":"1234"
+	
+
+}
+Response:
+{
+    "message": "Added Successfully !",
+    "success": "1"
+}
+===============================================
+
+api: Update Central Admin
+url: action=updatcentraladmin
+
+Request:
+{
+	"MobileNo":"7894561231",
+	"Password":"1234",
+	"cleaningName":"clinic1",
+	"mobile":"7894561231"
+    "userId":"2"
+	
+}
+Response:
+{
+    "message": "Update Successfully !",
+    "success": "1"
+}
+
+=====================================================
+
+api: List Of Central Admin
+url:action=listofcentraladmin
+
+Request:
+{
+	
+		"MobileNo":"9876543210",
+	    "Password":"1234"
+
+
+}
+
+Response:
+{
+    "CentralAdminList": [
+        {
+            "type": "1",
+            "cleaningName": "apollo hospital",
+            "mobile": "4567891230"
+        },
+        {
+            "type": "1",
+            "cleaningName": "hospital",
+            "mobile": "4567891230"
+        },
+        {
+            "type": "1",
+            "cleaningName": "apollo hospital",
+            "mobile": "7894561230"
+        }
+    ],
+    "message": "",
+    "success": "1"
+}
+=====================================================
+
+api:Create Cleaning
+url:action=createcleaning
+
+Request:
+{
+	
+		"MobileNo":"9876543210",
+	    "Password":"1234"
+
+	"cleaningName":"vraj dental hospital",
+	"contactPerson":"urvashi",
+	"mobile":"4567891230",
+	"password":"5678"
+	
+}
+Response:
+
+{
+    "message": "Added Successfully !",
+    "success": "1"
+}
+======================================================
+
+api: Update clinic
+url: action=updatecleaning
+
+Request:
+{
+	"MobileNo":"4567891230",
+	"Password":"1234",
+	"cleaningName":"clini31",
+	"mobile":"4567891230",
+	"contactPerson":"fgfdbg",
+	"userId":"2"
+
+	
+}
+Response:
+{
+    "message": "Update Successfully !",
+    "success": "1"
+}
+
+========================================================
+
+api: List Of Cleaning
+url:action=listofcleaning
+
+Request:
+{
+	
+		"MobileNo":"9876543210",
+	    "Password":"1234"
+
+}
+Response:
+{
+    "CentralAdminList": [
+        {
+            "type": "2",
+            "cleaningName": "apollo hospital",
+            "mobile": "4567891230",
+            "contactPerson": "uv"
+        },
+        {
+            "type": "2",
+            "cleaningName": "vraj dental hospital",
+            "mobile": "4567891230",
+            "contactPerson": "urvashi"
+        }
+    ],
+    "message": "",
+    "success": "1"
+}
+================================================
+api: Add Purchase Order
+url: action=pregeneratepurchaseorder
+ 
+ Request:
+ {
+	"MobileNo":"9876543210",
+	"Password":"1234"
+}
+Response:
+{
+    "message": "Added Successfully !",
+    "success": "1"
+}
+=================================================
+
+api: Update Purchase Order
+url: action=updatcreatepurchaseorder
+
+Request:
+{
+	"MobileNo":"9876543210",
+	"Password":"1234",
+	"venderId":"1",
+	"date":"04-10-2021",
+	"pono":"123456",
+	"purchaseOrderId":"1"
+}
+Response:
+{
+    "message": "Update Successfully !",
+    "success": "1"
+}
+========================================================
+
+api: List Purchase Order
+url: action=listofpurchaseorder
+
+Request:
+{
+	"MobileNo":"9876543210",
+	"Password":"1234"
+}
+Response:
+{
+    "PurchaseOrderList": [
+        {
+            "date": "04-10-2021",
+            "pono": "123456",
+            "venderName": "ytfght"
+        }
+    ],
+    "message": "",
+    "success": "1"
+}
+===============================================
+
+api: Purchase order apply verification
+url:action=purchaseorderapplyverification
+
+Request:
+{
+	"MobileNo":"9876543210",
+	"Password":"1234",
+	"enterBy":"1",
+	"purchaseOrderId":"1"
+}
+
+Response:
+{
+    "message": "Update Successfully !",
+    "success": "1"
+}
+============================================
+
+api:Add Product Purchase Order Details
+url:action=addproductpurchaseorderdetails
+
+Request:
+{
+	"MobileNo":"9876543210",
+	"Password":"1234",
+	"purchaseOrderId":"1",
+	"productId":"1",
+	"qty":"50"
+}
+
+Response:
+{
+    "message": "Added Successfully !",
+    "success": "1"
+}
+===========================================
+
+api: delete product purchase order Details
+url:action=deleteproductpurchaseorderdetails
+
+Request:
+{
+	"MobileNo":"9876543210",
+	"Password":"1234",
+	"purchaseOrderDetailsId":"1"
+
+}
+Response:
+{
+    "message": "delete successfully !",
+    "success": "1"
+}
+===============================================
+
+api: List Of Admin Purchase Order
+url:action=listofadminpurchaseorder
+
+Request:
+{
+	"MobileNo":"9876543210",
+	"Password":"1234"
+    }
+
+    Response:
+    {
+    "AdminPurchaseOrderList": [
+        {
+            "date": "04-10-2021",
+            "pono": "123456",
+            "venderName": "ytfght"
+        }
+    ],
+    "message": "",
+    "success": "1"
+}
+===================================================
+
+
+21)))))) api: chnage Password
+url:action=changepassword
+
+Request:
+{
+	"MobileNo":"9876543210",
+	"Password":"1234",
+	"NewPassword":"1234",
+	"userId":"3"
+}
+Response:
+{
+    "message": "Update Successfully !",
+    "success": "1"
+}
+
+===========================================
+
+23)))) api: Approved Purchase Order
+url:action=approvedpurchaseorder
+
+Request:
+{
+	"MobileNo":"9876543210",
+	"Password":"1234",
+    "approvedBy":"1",
+    "purchaseOrderId":"1"
+}
+Response:
+{
+    "message": "Update Successfully !",
+    "success": "1"
+}
+===============================================
+
+24))))))))))) api:List Of Approved Purchase Order
+url:action=listofapprovedpurchaseorder
+
+Request:
+{
+	"MobileNo":"9876543210",
+	"Password":"1234"
+   }
+   Response:
+   {
+    "PurchaseOrderList": [
+        {
+            "date": "04-10-2021",
+            "pono": "123456",
+            "venderName": "ytfght"
+        }
+    ],
+    "message": "",
+    "success": "1"
+}
+================================================
+
+25)))))))) api: Purchase History
+url:action=purchasehistory
+
+Request:
+{
+	"MobileNo":"9876543210",
+	"Password":"1234",
+   "FromDate":"04-10-2021",
+   "ToDate":"04-10-2021",
+   "VenderId":"1"
+  
+  }
+  Response:
+  {
+    "PurchaseOrderList": [
+        {
+            "date": "04-10-2021",
+            "pono": "123456",
+            "venderName": "ytfght"
+        }
+    ],
+    "message": "",
+    "success": "1"
+}
+=========================================
+
+26))))) api: Clinic Pending Order
+url:action=clinicpendingorder
+
+Request:
+{
+	"MobileNo":"9876543210",
+	"Password":"1234",
+   "FromDate":"26-08-2021",
+   "ToDate":"26-08-2021"
+  
+  }
+  Response:
+  {
+    "ClinicPendingOrderList": [
+        {
+            "orderQty": "10",
+            "productName": "yhjygjgy"
+        }
+    ],
+    "message": "",
+    "success": "1"
+}
+=================================================
+
+27))))) api:Out Of Stock
+url:action=outofstock
+
+Request:
+{
+	"MobileNo":"9876543210",
+	"Password":"1234"
+   }
+   Response:
+   {
+    "OutOfStockList": [
+        {
+            "productName": "yhjygjgy",
+            "lpr": "5",
+            "minStockQty": "0"
+        }
+    ],
+    "message": "",
+    "success": "1"
+}
+
+================================================
+
+28))))) api: Submit Voucher
+http://getdemo.in/vrajdental/webservies/ws_services.php?action=submitvoucher
+url:action=submitvoucher
+
+Request:
+{
+		"MobileNo":"9904963090",
+	    "Password":"vraj",
+        "strVoucherNo" : "1",
+        "strVoucherDate" : "21-03-2023",
+        "iVenderId" : 11
+}
+Response:
+{
+    "iVoucherId": 2,
+    "message": "Added Successfully !",
+    "success": "1"
+}
+=================================================
+29))))) api: Voucher Listing
+http://getdemo.in/vrajdental/webservies/ws_services.php?action=voucherlisting
+url:action=voucherlisting
+
+Request:
+{
+		"MobileNo":"9904963090",
+	    "Password":"vraj",
+        "FromDate" : "",
+        "ToDate" : "",
+        "VenderId" : ""
+}
+Response:
+{
+    "voucherlisting": [
+        {
+            "iVoucherId": "1",
+            "strVoucherNo": "1",
+            "strVoucherName": "..",
+            "strVoucherDate": "21-03-2023",
+            "iTotalAmount": "0.00",
+            "iVenderId": "11"
+        }
+    ],
+    "message": "",
+    "success": "1"
+}
+====================================================
+30))))) api: pending voucher Listing
+http://getdemo.in/vrajdental/webservies/ws_services.php?action=pendingvoucherlisting
+url:action=pendingvoucherlisting
+
+Request:
+{
+		"MobileNo":"9904963090",
+	    "Password":"vraj",
+        "FromDate" : "",
+        "ToDate" : "",
+        "VenderId" : ""
+}
+Response:
+{
+    "PendingVoucherListing": [
+        {
+            "purchaseOrderId": "260",
+            "orderId": "209",
+            "invoiceDate": "5-2-2023",
+            "date": "21-03-2023",
+            "invoiceNo": "3107",
+            "Amount": "2500",
+            "pono": "PO NO - 260",
+            "venderName": "PAYAL STORES"
+        },
+        {
+            "purchaseOrderId": "259",
+            "orderId": "208",
+            "invoiceDate": "7-3-2023",
+            "date": "16-03-2023",
+            "invoiceNo": "T/7495/22-23",
+            "Amount": "4205",
+            "pono": "PO NO - 259",
+            "venderName": "SUNRISE SURGICAL"
+        },
+        {
+            "purchaseOrderId": "258",
+            "orderId": "207",
+            "invoiceDate": "10-2-2023",
+            "date": "16-03-2023",
+            "invoiceNo": "T/6913/22-23",
+            "Amount": "1400",
+            "pono": "PO NO - 258",
+            "venderName": "SUNRISE SURGICAL"
+        }
+    ],
+    "message": "",
+    "success": "1"
+}
+=======================================================
+31))))) api: add in voucher
+http://getdemo.in/vraj_testing/webservies/ws_services.php?action=addinvoucher
+url:action=addinvoucher
+
+Request:
+{
+		"MobileNo":"9904963090",
+	    "Password":"vraj",
+        "iVoucherId" : "2",
+        "orderId" : "209",
+        "Amount" : "2500",
+        "purchaseOrderId" : "260"
+}
+Response:
+{
+    "message": "Added Successfully !",
+    "success": "1"
+}
+======================================================
+32))))) api: add in voucher listing
+http://getdemo.in/vraj_testing/webservies/ws_services.php?action=addinvoucherlisting
+url:action=addinvoucherlisting
+
+Request:
+{
+		"MobileNo":"9904963090",
+	    "Password":"vraj",
+        "iVoucherId" : "2"
+}
+Response:
+{
+    "AddInVoucherListing": [
+        {
+            "iVoucherDetailsId": "1",
+            "strEntryDate": "21-03-2023",
+            "iVoucherId": "2",
+            "iAmount": "2500"
+        }
+    ],
+    "iTotalAmount": "2500.00",
+    "message": "Add In Voucher Listing",
+    "success": "1"
+}
+=================================================
+33))))) api: remove voucher
+http://getdemo.in/vraj_testing/webservies/ws_services.php?action=removevoucher
+url:action=removevoucher
+
+Request:
+{
+		"MobileNo":"9904963090",
+	    "Password":"vraj",
+        "iVoucherDetailsId" : "1"
+}
+Response:
+{
+    "message": "Deleted Successfully",
+    "success": "1"
+}
+=======================================================
+34))))) api: edit voucher
+http://getdemo.in/vraj_testing/webservies/ws_services.php?action=editvoucher
+url:action=editvoucher
+
+Request:
+{
+		"MobileNo":"9904963090",
+	    "Password":"vraj",
+        "iVoucherId" : "2",
+        "strVoucherNo" : "002",
+        "strVoucherDate" : "23-06-2023",
+        "iVenderId" : "11"
+}
+Response:
+{
+    "iVoucherId": "2",
+    "message": "Updated Successfully !",
+    "success": "1"
+}
+===========================================================
+35))))) api: delete voucher
+http://getdemo.in/vraj_testing/webservies/ws_services.php?action=deletevoucher
+url:action=deletevoucher
+
+Request:
+{
+    "MobileNo":"9904963090",
+    "Password":"vraj",
+    "iVoucherId":"2"
+}
+Response:
+{
+    "message": "Deleted Successfully !",
+    "success": "1"
+}
+=============================================================
+36))))) api: final submit of voucher
+http://getdemo.in/vraj_testing/webservies/ws_services.php?action=finalsubmit
+url:action=finalsubmit
+
+Request:
+{
+    "MobileNo":"9904963090",
+    "Password":"vraj",
+    "iVoucherId":"1"
+}
+Response:
+{
+    "message": "Added Successfully !",
+    "success": "1"
+}
+=============================================================
+37))))) api: Unlock of voucher
+http://getdemo.in/vraj_testing/webservies/ws_services.php?action=unlockvoucher
+url:action=unlockvoucher
+
+Request:
+{
+    "MobileNo":"9904963090",
+    "Password":"vraj",
+    "iVoucherId":"1"
+}
+Response:
+{
+    "message": "Unlock Voucher Successfully !",
+    "success": "1"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
